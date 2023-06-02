@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombia Redime • Registro</title>
+    <link rel="stylesheet" href="../style/login.css">
+</head>
+<body>
+  
+   
+    <main class="form-login" id="form-register">
+      <div class="mb-4 imglogo"></div>
+        <form class="formulario">
+          <!-- <h1>Regístrate</h1> -->
+            
+           <img src="../assets/img/logotransparente.png" alt="logo" class="logo1">
+          
+          <br>
+          
+          <div class="form">
+            <label for="correo"></label>
+            <input type="email" class="correo" id="correo" placeholder="Correo Electronico" required>
+    
+          </div>
+          <div class="form">
+            <label for="password"></label>
+            <input type="password" class="password" id="password" placeholder="Contraseña" required>
+    
+          </div>
+
+
+          <div class="check">
+            <label for="checkbox">
+              <input type="checkbox" class="check" id="checkbox" value="agree-terms" required> Estoy de acuerdo con los <a href="#">Términos y Condiciones</a>.</label>
+          </div>
+          <br>
+
+          <br>
+          <button class="boton" type="button" id="boton" onclick="RevisarPass()">Iniciar sesion</button>
+          <p class="copyright">&copy; Colombia Redime</p>
+        </form>
+      </main>
+      <script src="../src/login.js"></script>
+</body>
+</html>
